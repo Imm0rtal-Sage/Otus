@@ -1,38 +1,46 @@
-/* PC */
-
 @font-face {
     font-family: "Playfair Display";
-    src: local("Playfair Display"), url(fonts/Playfair_Display/PlayfairDisplay-Medium.ttf);
+    src: local("Playfair Display"), url("fonts/Playfair_Display/PlayfairDisplay-Medium.ttf");
 }
 
 @font-face {
     font-family: "Playfair Display";
-    src: local("Playfair Display"), url(fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    src: local("Playfair Display"), url("fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"), url("fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "Bitter";
-    src: local("Bitter"), url(fonts/Bitter/Bitter-Regular.ttf);
+    src: local("Bitter"), url("fonts/Bitter/Bitter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: local("Bitter"), url("fonts/Bitter/Bitter-Light.ttf");
 }
 
 @font-face {
     font-family: "Roboto-Medium";
-    src: local("Roboto-Medium"), url(fonts/roboto/Roboto-Medium.ttf);
+    src: local("Roboto-Medium"), url("fonts/roboto/Roboto-Medium.ttf");
 }
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: local("Roboto-Regular"), url(fonts/roboto/Roboto-Regular.ttf);
+    src: local("Roboto-Regular"), url("fonts/roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
     font-family: "Roboto-Bold";
-    src: local("Roboto-Bold"), url(fonts/roboto/Roboto-Bold.ttf);
+    src: local("Roboto-Bold"), url("fonts/roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
     font-family: "Roboto-Black";
-    src: local("Roboto-Black"), url(fonts/roboto/Roboto-Black.ttf);
+    src: local("Roboto-Black"), url("fonts/roboto/Roboto-Black.ttf");
 }
 
 body {
@@ -42,42 +50,81 @@ body {
     font-weight: 400;
 }
 
+/* PC */
+@media only screen and (min-width: 1200px) {
+    .playfair-display-medium {
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      font-size: 86px;
+      font-weight: 500;
+      font-optical-sizing: auto;
+    }
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+      }
+}
+
+/* tablet */
+@media only screen and (max-width: 1200px) {
+    .playfair-display-medium {
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      font-size: 70px;
+      font-weight: 500;
+      font-optical-sizing: auto;
+    }
+    .roboto-medium {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+    }
+}
+
 .playfair-display-medium {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 86px;
     font-optical-sizing: auto;
 }
 
 .playfair-display-semibold {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 86px;
+    font-optical-sizing: auto;
+}
+
+.playfair-display-regular {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 
 .bitter-regular {
     font-family: "Bitter", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-optical-sizing: auto;
   }
+
+.bitter-light {
+    font-family: "Bitter", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
 
 .roboto-regular {
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
     font-optical-sizing: auto;
-}
-  
-.roboto-medium {
-    font-family: "Roboto", serif;
-    font-weight: 500;
-    font-style: normal;
 }
   
 .roboto-bold {
