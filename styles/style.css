@@ -103,7 +103,45 @@ ul {
 }
 
 #biography {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-right: auto;
+    margin-bottom: 150px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 
+.biography-img {
+    margin-left: 20px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.biography-h2 {
+    transform: rotate(-90deg) translateX(20%);
+    margin-top: 51px;
+    margin-left: -39px;
+}
+
+.biography-div {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 25px;
+    margin-top: -40px;
+    gap: 30px;
+}
+
+.biography-div-span {
+    margin-bottom: 20px;
+}
+
+.biography-rectangle {
+    width: 20px; 
+    height: 5px; 
+    background-color: black;
+    border: none; 
 }
 
 #designers {
