@@ -1,0 +1,130 @@
+/* PC */
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"), url(fonts/Playfair_Display/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: local("Playfair Display"), url(fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: local("Bitter"), url(fonts/Bitter/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: local("Roboto-Medium"), url(fonts/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local("Roboto-Regular"), url(fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: local("Roboto-Bold"), url(fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: local("Roboto-Black"), url(fonts/roboto/Roboto-Black.ttf);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.playfair-display-medium {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 86px;
+    font-optical-sizing: auto;
+}
+
+.playfair-display-semibold {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 86px;
+}
+
+.bitter-regular {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+  
+.roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+  
+.font-size-34 {
+    font-size: 34px;
+}
+
+.font-size-32 {
+    font-size: 32px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.font-size-26 {
+    font-size: 26px;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
