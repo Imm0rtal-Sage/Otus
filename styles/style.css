@@ -145,7 +145,50 @@ ul {
 }
 
 #designers {
+}
 
+.designers-scroll {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    overflow: auto;
+    padding: 1.5% 0% 0% 1.5%;
+}
+
+.designers-h2 {
+    margin-left: 1.5%;
+}
+
+.designers-image {
+    padding-left: auto;
+    display: flex;
+    margin-bottom: 150px;
+    gap: 20px;
+    overflow: scroll;
+    overflow-y: hidden;
+    object-fit: cover;
+    align-items: baseline;
+}
+
+.designers-card-large {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.designers-card-div {
+  text-align: left;
+  padding-top: 24px;
+}
+
+.designers-card-small-img {
+    height: 440px;
+    width: 336px;
+}
+
+.designers-card-large-img {
+    height: 538px;
+    width: 572px;
 }
 
 #testimonials {
