@@ -6,6 +6,7 @@
     <title>Mod Studio</title>
 
     <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@600&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,33 +14,35 @@
 <body>
     <!-- Header -->
     <header>
-        <div style="display: grid; grid-template-columns: auto auto;">
+        <div>
             <span class="playfair-display-semibold">Mod</span>
-            <div class="roboto-medium font-size-24">
-                <nav>
-                    <a href="#biography">Biography</a>
-                    <a href="#designers"><u>Designers</u></a>
-                    <a href="#testimonials">Testimonials</a>
-                    <a href="#strong-points">Strong points</a>
-                </nav>
-            </div>
+            <nav>
+                <ul class="roboto-medium font-size-24 nav-ul">
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#designers"><u>Designers</u></a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#strong-points">Strong points</a></li>
+                <ul>
+            </nav>
         </div>
     </header>
     
     <!-- main -->
-    <section>
-        <p align="center" class="playfair-display-medium">Mod Studio</p>
-        <p align="center" class="roboto-medium font-size-20"><b>Modern Web Studio</b></p>
+    <section class="first-section">
+        <div class="first-section-main">
+            <h1 class="playfair-display-medium">Mod Studio</h1>
+            <span class="roboto-medium font-size-20"><b>Modern Web Studio</b></span>
+        </div>    
     </section>
 
     <!-- Biography -->
-    <section>
+    <section id="biography">
         <h2 class="roboto-bold font-size-24"><br>Biography</h2>
         <img src="img/Katya Mills.jpg" width="541" height="840" alt="Katya Mills" align="left" vspace="5" hspace="5"/>
-        <p align="left" class="playfair-display-medium">
+        <span align="left" class="playfair-display-medium">
             <b>Katya<br>
                 Mills</b>
-        </p>
+        </span>
         <p class="roboto-medium font-size-18">
             Art Director
             <br>
@@ -55,49 +58,51 @@
     </section>
 
     <!-- Designers -->
-    <h2 class="roboto-bold font-size-24"><br>Designers</h2>
-    <img src="img/Jess Wonder.jpg" width="572" height="538" alt="JESS WONDER">
-    <h3 class="roboto-bold ">JESS WONDER</h3>
-    <p>
-        <span class="roboto-bold">From/</span>
-        <span class="roboto-regular">Be more flower</span>
-        <br>
-        <span class="roboto-bold">Skills/</span>
-        <span class="roboto-regular">Design Strategy / Marketing</span>
-    </p>
+     <section id="designers">
+        <h2 class="roboto-bold font-size-24"><br>Designers</h2>
+        <img src="img/Jess Wonder.jpg" width="572" height="538" alt="JESS WONDER">
+        <h3 class="roboto-bold ">JESS WONDER</h3>
+        <p>
+            <span class="roboto-bold">From/</span>
+            <span class="roboto-regular">Be more flower</span>
+            <br>
+            <span class="roboto-bold">Skills/</span>
+            <span class="roboto-regular">Design Strategy / Marketing</span>
+        </p>
 
-    <img src="img/Kameron Clein.jpg" width="335.96" height="439.46" alt="KAMERON CLEIN">
-    <h3 class="roboto-bold">KAMERON CLEIN</h3>
-    <p>
-        <span class="roboto-bold">From/</span>
-        <span class="roboto-regular">Be more flower</span>
-        <br>
-        <span class="roboto-bold">Skills/</span>
-        <span class="roboto-regular">Design Strategy / Marketing</span>
-    </p>
+        <img src="img/Kameron Clein.jpg" width="335.96" height="439.46" alt="KAMERON CLEIN">
+        <h3 class="roboto-bold">KAMERON CLEIN</h3>
+        <p>
+            <span class="roboto-bold">From/</span>
+            <span class="roboto-regular">Be more flower</span>
+            <br>
+            <span class="roboto-bold">Skills/</span>
+            <span class="roboto-regular">Design Strategy / Marketing</span>
+        </p>
     
-    <img src="img/Loisse Red.jpg" width="330.78" height="439.46" alt="LOUISSE RED">
-    <h3 class="roboto-bold">LOUSSE RED</h3>
-    <p>
-        <span class="roboto-bold">From/</span>
-        <span class="roboto-regular">Be more flower</span>
-        <br>
-        <span class="roboto-bold">Skills/</span>
-        <span class="roboto-regular">Design Strategy / Marketing</span>
-    </p>
+        <img src="img/Loisse Red.jpg" width="330.78" height="439.46" alt="LOUISSE RED">
+        <h3 class="roboto-bold">LOUSSE RED</h3>
+        <p>
+            <span class="roboto-bold">From/</span>
+            <span class="roboto-regular">Be more flower</span>
+            <br>
+            <span class="roboto-bold">Skills/</span>
+            <span class="roboto-regular">Design Strategy / Marketing</span>
+        </p>
 
-    <img src="img/Kameron Clein.jpg" width="335.96" height="439.46" alt="KAMERON CLEIN">
-    <h3 class="roboto-bold">KAMERON CLEIN</h3>
-    <p>
-        <span class="roboto-bold">From/</span>
-        <span class="roboto-regular">Be more flower</span>
-        <br>
-        <span class="roboto-bold">Skills/</span>
-        <span class="roboto-regular">Design Strategy / Marketing</span>
-    </p>
+        <img src="img/Kameron Clein.jpg" width="335.96" height="439.46" alt="KAMERON CLEIN">
+        <h3 class="roboto-bold">KAMERON CLEIN</h3>
+        <p>
+            <span class="roboto-bold">From/</span>
+            <span class="roboto-regular">Be more flower</span>
+            <br>
+            <span class="roboto-bold">Skills/</span>
+            <span class="roboto-regular">Design Strategy / Marketing</span>
+        </p>
+    </section>
     
     <!-- Testimonials -->
-    <section>
+    <section id="testimonials">
         <span class="roboto-bold">Website</span>
         <br>
         <a class="roboto-regular" href="www.whitepapers.com">www.whitepapers.com</a>
@@ -129,7 +134,7 @@
     </section>
 
     <!-- Strong points -->
-     <section>
+     <section id="strong-points">
         <h2 class="roboto-bold font-size-24"><br>Strong points</h2>
         <div style="display: flex;">
         <img src="img/Table.jpg" width="335" height="554" alt="Стол" style="margin-right: 10px;">
@@ -157,16 +162,16 @@
 
     <!-- Footer -->
     <footer>
-        <address class="roboto-regular">
-            <a>+7 921 123-45-67<br>
-            INFO@MODSTUDIO.COM</a>
+        <address class="roboto-regular footer-address">
+            <a href="tel:+79211234567"><u>+7 921 123-45-67</u></a><br>
+            <a href="mailto:info@modstudio.com"><u>INFO@MODSTUDIO.COM</u></a>
         </address>
-
-        <div class="roboto-medium font-size-18">
-            A product of <b class="roboto-black">MOD</b>
+    
+        <div class="footer-main">
+            <span class="roboto-medium fnt-size-18">A product of </span><span class="roboto-black font_size24"><strong>MOD</strong></span></p>
         </div>
-
-        <div class="roboto-regular">
+    
+        <div class="roboto-regular footer-copyright">
             © 2023 Mod Media. All rights reserved
         </div>
     </footer>
